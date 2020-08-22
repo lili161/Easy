@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Easy</string>
+
+    <string name="title_activity_welcome">welcome</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="connect">连接</string>>
+    <string name="please_input">请输入PC客户端 提供的ip：</string>
+    <string name="help_me_con">帮我连接</string>
+    <string name="version">Ver1.0.0</string>
+    <string name="send">发送</string>
+    <string name="rec_area">接收区</string>
+    <string name="send_area">发送区</string>
+    <string name="heart">❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤</string>
+    <string></string>
+    <string></string>
+    <string></string>
+    <string></string>
+</resources>

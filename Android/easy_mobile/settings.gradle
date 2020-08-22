@@ -1,0 +1,2 @@
+include ':app', ':app'
+//rootProject.name='easy_mobile'
