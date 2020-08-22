@@ -1,0 +1,10 @@
+D:\实验Demo\easy\bin\Debug\easy.exe
+D:\实验Demo\easy\bin\Debug\easy.pdb
+D:\实验Demo\easy\obj\Debug\easy.Form1.resources
+D:\实验Demo\easy\obj\Debug\easy.Form2.resources
+D:\实验Demo\easy\obj\Debug\easy.Properties.Resources.resources
+D:\实验Demo\easy\obj\Debug\easy.csproj.GenerateResource.cache
+D:\实验Demo\easy\obj\Debug\easy.csproj.CoreCompileInputs.cache
+D:\实验Demo\easy\obj\Debug\easy.exe
+D:\实验Demo\easy\obj\Debug\easy.pdb
+D:\实验Demo\easy\obj\Debug\easy.csprojAssemblyReference.cache
