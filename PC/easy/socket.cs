@@ -23,10 +23,11 @@ namespace easy
     public class socket
     {
         public static init_socket init;
-        static Socket server_socket;
-        static Socket client_socket;
+       public   Socket server_socket;
+        public  Socket client_socket;
         public static String Path;
         public static String file_name;
+        public  int is_connect = 0;
         public void  connect()//创建一个socket并一直监听接收消息
         {
             try
@@ -39,6 +40,7 @@ namespace easy
                 try
                 {
                     client_socket = server_socket.Accept();
+                    is_connect = 1;
                 }
                 catch (System.Net.Sockets.SocketException e)
                 {
@@ -100,6 +102,10 @@ namespace easy
                             catch (ThreadInterruptedException e)
                             {
                                 break;
+                            }
+                            catch (System.NullReferenceException)
+                            {
+                                //donothing
                             }
                         }
 

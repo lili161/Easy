@@ -124,13 +124,18 @@ namespace easy
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
+            if(soc.client_socket!=null)
+            soc.client_socket.Close();
+            if(soc.server_socket!=null)
+            soc.server_socket.Close();
             soc.close();
+            this.Close();
             System.Environment.Exit(0);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (!Program.f.textBox2.Text.Equals(""))//判断是否为空值
+            if (!Program.f.textBox2.Text.Equals("")&&soc.is_connect!=0)//判断是否为空值
             {
                 if (textBox2.Text.Length>2&&textBox2.Text.ElementAt(1) == ':' && textBox2.Text.ElementAt(0) >= 'A')//判断是否为文件
                 {
