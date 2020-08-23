@@ -1,0 +1,9 @@
+D:\androidDemo\Easy\PC\easy\bin\Release\easy.exe
+D:\androidDemo\Easy\PC\easy\bin\Release\easy.pdb
+D:\androidDemo\Easy\PC\easy\obj\Release\easy.Form1.resources
+D:\androidDemo\Easy\PC\easy\obj\Release\easy.Form2.resources
+D:\androidDemo\Easy\PC\easy\obj\Release\easy.Properties.Resources.resources
+D:\androidDemo\Easy\PC\easy\obj\Release\easy.csproj.GenerateResource.cache
+D:\androidDemo\Easy\PC\easy\obj\Release\easy.csproj.CoreCompileInputs.cache
+D:\androidDemo\Easy\PC\easy\obj\Release\easy.exe
+D:\androidDemo\Easy\PC\easy\obj\Release\easy.pdb

@@ -129,7 +129,6 @@ namespace easy
             if(soc.server_socket!=null)
             soc.server_socket.Close();
             soc.close();
-            this.Close();
             System.Environment.Exit(0);
         }
 
