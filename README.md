@@ -12,6 +12,8 @@
 ![按顺序点击](https://images.gitee.com/uploads/images/2020/0823/115846_dd114ecb_5722643.png "屏幕截图.png")
 
  **2.启动后，进入界面** 
+ 
+ 
 ![主界面](https://images.gitee.com/uploads/images/2020/0823/120321_2941d62f_5722643.png "屏幕截图.png")
 
  **3.连接成功** 
