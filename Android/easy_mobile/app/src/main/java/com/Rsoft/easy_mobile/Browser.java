@@ -14,6 +14,6 @@ public class Browser extends AppCompatActivity {
        WebView web= findViewById(R.id.web);
         web.getSettings().setJavaScriptEnabled(true);
         web.setWebViewClient(new WebViewClient());
-       web.loadUrl("http://m.baidu.com");
+       web.loadUrl("https://github.com/ruileee/Easy/blob/master/README.md");
     }
 }
