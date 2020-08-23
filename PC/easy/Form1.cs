@@ -186,5 +186,10 @@ namespace easy
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)//打开文件夹
+        {
+            System.Diagnostics.Process.Start("D://Easy");
+        }
     }
 }

@@ -43,6 +43,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.button4 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -81,6 +82,7 @@
             // 
             this.panel1.AllowDrop = true;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.label3);
@@ -97,7 +99,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(23, 120);
+            this.label5.Location = new System.Drawing.Point(23, 138);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(62, 18);
             this.label5.TabIndex = 8;
@@ -106,7 +108,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(101, 117);
+            this.textBox1.Location = new System.Drawing.Point(101, 132);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(400, 28);
@@ -127,7 +129,7 @@
             // textBox2
             // 
             this.textBox2.AllowDrop = true;
-            this.textBox2.Location = new System.Drawing.Point(101, 72);
+            this.textBox2.Location = new System.Drawing.Point(102, 67);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(400, 28);
             this.textBox2.TabIndex = 5;
@@ -175,6 +177,16 @@
             // 
             this.toolTip1.Popup += new System.Windows.Forms.PopupEventHandler(this.toolTip1_Popup);
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(542, 131);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(204, 31);
+            this.button4.TabIndex = 9;
+            this.button4.Text = "打开下载文件夹";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
@@ -216,6 +228,7 @@
         public System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.Button button4;
     }
 }
 
